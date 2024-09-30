@@ -1,0 +1,188 @@
+[
+    {
+      "statCards": [
+        {
+          "title": "Available Position",
+          "value": "24",
+          "subtext": "4 Urgently needed"          
+        },
+        {
+          "title": "Job Open",
+          "value": "10",
+          "subtext": "4 Active hiring"          
+        },
+        {
+          "title": "New Employees",
+          "value": "24",
+          "subtext": "4 Department"          
+        }
+      ],
+      "chartCards": [
+        {
+          "title": "Total Employees",
+          "value": "216",
+          "subtext": "120 Men, 96 Women",
+          "change": "+2% Past month"
+        },
+        {
+          "title": "Talent Request",
+          "value": "16",
+          "subtext": "6 Men, 10 Women",
+          "change": "+5% Past month"
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Outing schedule for every department",
+          "time": "5 Minutes ago"
+        },
+        {
+          "title": "Meeting HR Department",
+          "time": "Yesterday, 12:30 PM"
+        },
+        {
+          "title": "IT Department need two more talents for UX/UI Designer position",
+          "time": "Yesterday, 09:15 AM"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "Review candidate applications",
+          "time": "Today - 11:30 AM"
+        },
+        {
+          "title": "Interview with candidates",
+          "time": "Today - 10:30 AM"
+        },
+        {
+          "title": "Short meeting with product designer from IT Department",
+          "time": "Today - 09:15 AM"
+        }
+      ]
+    },
+    {
+      "title": "Project Management",
+      "statCards": [
+        {
+          "title": "Total Projects",
+          "value": "12",
+          "subtext": "3 Ongoing"          
+        },
+        {
+          "title": "Completed Projects",
+          "value": "5",
+          "subtext": "Last month"          
+        },
+        {
+          "title": "Pending Review",
+          "value": "2",
+          "subtext": "Awaiting feedback"          
+        }
+      ],
+      "chartCards": [
+        {
+          "title": "Active Teams",
+          "value": "6",
+          "subtext": "Working on projects",
+          "change": "+1 Team"
+        },
+        {
+          "title": "Client Feedback",
+          "value": "8",
+          "subtext": "7 Positive, 1 Neutral",
+          "change": "-1 Feedback"
+        }
+      ],
+      "announcements": [
+        {
+          "title": "New project launch next week",
+          "time": "Today - 10:00 AM"
+        },
+        {
+          "title": "Team outing planned for Friday",
+          "time": "Today - 09:00 AM"
+        },
+        {
+          "title": "Update your project statuses",
+          "time": "Yesterday, 05:15 PM"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "Weekly team check-in",
+          "time": "Tomorrow - 09:00 AM"
+        },
+        {
+          "title": "Project presentation preparation",
+          "time": "Tomorrow - 02:00 PM"
+        },
+        {
+          "title": "Client meeting",
+          "time": "Today - 11:00 AM"
+        }
+      ]
+    },
+    {
+      "title": "Recruitment",
+      "statCards": [
+        {
+          "title": "Positions Available",
+          "value": "15",
+          "subtext": "8 Urgently needed"          
+        },
+        {
+          "title": "Candidates Applied",
+          "value": "50",
+          "subtext": "Last month"          
+        },
+        {
+          "title": "Interviews Scheduled",
+          "value": "10",
+          "subtext": "Upcoming"          
+        }
+      ],
+      "chartCards": [
+        {
+          "title": "Successful Hires",
+          "value": "25",
+          "subtext": "In the last quarter",
+          "change": "+10%"
+        },
+        {
+          "title": "Interviews Completed",
+          "value": "30",
+          "subtext": "In the last month",
+          "change": "-5%"
+        }
+      ],
+      "announcements": [
+        {
+          "title": "Hiring fair next week",
+          "time": "Today - 01:00 PM"
+        },
+        {
+          "title": "Update your profiles",
+          "time": "Today - 11:30 AM"
+        },
+        {
+          "title": "New positions open in IT",
+          "time": "Yesterday, 03:45 PM"
+        }
+      ],
+      "schedules": [
+        {
+          "title": "Candidate interviews",
+          "time": "Today - 03:00 PM"
+        },
+        {
+          "title": "Final interview round",
+          "time": "Tomorrow - 10:30 AM"
+        },
+        {
+          "title": "Feedback session",
+          "time": "Tomorrow - 01:00 PM"
+        }
+      ]
+    }
+  ]
+  
