@@ -11,8 +11,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
+        <Route exact path="/" element={<Navigate to="/0"/>}/>
         <Route exact path="/:index" element={<Dashboard/>}/>
-
       </Routes>
         {/* Add other routes as needed */}
     </Router>
