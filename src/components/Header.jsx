@@ -1,16 +1,34 @@
 import React from 'react';
 import { Bell, MessageSquare, Search } from 'lucide-react';
+import ProfilePic from '../assets/profile_pic.png';
 
 const Header = () => (
-  <header className="bg-white shadow-sm p-4 flex justify-between items-center">
-    <div className="relative">
-      <input type="text" placeholder="Search" className="pl-8 pr-4 py-2 rounded-lg border" />
-      <Search className="absolute left-2 top-2.5 text-gray-400" size={20} />
+  <header className="header">
+    <div className="search-container">
+      <input type="text" placeholder="Search" className="search-input" />
+      <Search className="search-icon" size={20} />
     </div>
-    <div className="flex items-center space-x-4">
+    <div className="header-icons">
       <Bell size={20} />
       <MessageSquare size={20} />
-      <img src="/api/placeholder/32/32" alt="User" className="w-8 h-8 rounded-full" />
+      <img src={ProfilePic} alt="User" className="user-avatar" />
+      <p className="user-name">John Doe</p>
+      {/* down arrow */}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="icon icon-tabler icon-tabler-chevron-down"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        strokeWidth="2"
+        stroke="currentColor"
+        fill="none"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <polyline points="6 9 12 15 18 9" />
+      </svg>
     </div>
   </header>
 );

@@ -1,12 +1,15 @@
 import React from 'react';
 
 const AnnouncementItem = ({ title, time }) => (
-  <div className="flex justify-between items-center py-2">
-    <div>
-      <p className="font-medium">{title}</p>
-      <p className="text-sm text-gray-500">{time}</p>
+  <div className="announcement-card">
+    <div className='announcement-data'>
+      <h3 className="">{title}</h3>
+      <p className="announcement-subtext">{time}</p>
     </div>
-    <button className="text-gray-400">•••</button>
+    <div className='announcement-options'>
+      📌
+      <button className="">•••</button>
+    </div>
   </div>
 );
 

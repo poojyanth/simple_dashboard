@@ -1,14 +1,15 @@
 import React from 'react';
+import graph1 from '../assets/Frame 52.png';
 
 const ChartCard = ({ title, value, subtext, change }) => (
-  <div className="bg-white p-4 rounded-lg shadow">
-    <h3 className="text-lg font-semibold">{title}</h3>
-    <p className="text-3xl font-bold">{value}</p>
-    <p className="text-sm">{subtext}</p>
-    <div className="mt-2">
-      <span className="text-green-500">{change}</span>
-      {/* Placeholder for chart */}
-      <div className="h-16 bg-gray-200 rounded mt-2"></div>
+  <div className="chartCard">
+    <div className='chartCard-innerdiv'>
+      <div className='chartCard-innerdiv2'>
+        <h2 className="">{title}</h2>
+        <h1 className="">{value}</h1>
+        <p className="">{subtext}</p>
+      </div>
+      <img src={graph1} alt=""/> 
     </div>
   </div>
 );

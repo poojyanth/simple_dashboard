@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import Dashboard from './components/Dashboard';
+import './App.css';
 
 const App = () => {
   return (
