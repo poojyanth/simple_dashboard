@@ -1,12 +1,12 @@
 import React from 'react';
 
 const ScheduleItem = ({ title, time }) => (
-  <div className="flex justify-between items-center py-2">
-    <div>
-      <p className="font-medium">{title}</p>
-      <p className="text-sm text-gray-500">{time}</p>
+  <div className="schedule-item">
+    <div className="item-info">
+      <p className="title">{title}</p>
+      <p className="time">{time}</p>
     </div>
-    <button className="text-gray-400">•••</button>
+    <button className="options-btn">•••</button>
   </div>
 );
 
